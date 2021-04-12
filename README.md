@@ -1,2 +1,2 @@
 # budget-app
-Light-Weight Budget Web App 
+Light-Weight Budget Web App in developpement
