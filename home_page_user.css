@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ecf0f1;
+}
+
+.header{
+    height: 40vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(profile/back.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.header h1{
+    font-size: 35px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    color: white;
+    position: absolute;
+    top: 44%;
+    left: 31%;
+}
+
+.header h2{
+    font-size: 25px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    position: relative;
+    color: white;
+    text-align: center;
+    top: 10px;
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: #E3E3E3;
+    -webkit-box-shadow: 0px 4px 24px -3px rgba(0,0,0,0.64);
+    -moz-box-shadow: 0px 4px 24px -3px rgba(0,0,0,0.64);
+    box-shadow: 0px 4px 24px -3px rgba(0,0,0,0.64);
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    line-height: 80px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0 100px;
+}
+
+.welcome-sentence{
+    font-size: 25px;
+}
+
+.log-out{
+    position: relative;
+    left: 950px;
+    padding: 11px 32px;
+    background-color: #28B9B5;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    -webkit-box-shadow: 0px 1px 3px -1px rgba(0,0,0,0.64);
+    -moz-box-shadow: 0px 1px 3px -1px rgba(0,0,0,0.64);
+    box-shadow: 0px 1px 3px -1px rgba(0,0,0,0.64);
+    transition: 0.7s;
+}
+
+.log-out:hover{
+    -webkit-box-shadow: 0px 1px 20px -1px rgba(0,0,0,0.64);
+    -moz-box-shadow: 0px 1px 20px -1px rgba(0,0,0,0.64);
+    box-shadow: 0px 1px 20px -1px rgba(0,0,0,0.64);
+}
+
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+
+.budget-show{
+    width: 100%;
+    height: 350px;
+    text-align: center;
+}
+
+.budget-show-1,
+.budget-show-2,
+.budget-show-3{
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    text-align: center;
+    margin: 45px 50px;
+    -webkit-box-shadow: 5px 3px 11px 0px rgba(0,0,0,0.68);
+    -moz-box-shadow: 5px 3px 11px 0px rgba(0,0,0,0.68);
+    box-shadow: 5px 3px 11px 0px rgba(0,0,0,0.68);
+    border-radius: 10px;
+}
+
+.budget-show-1 h2,
+.budget-show-2 h2,
+.budget-show-3 h2{
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.budget-show-1 p,
+.budget-show-2 p,
+.budget-show-3 p{
+    margin-bottom: 45px;
+    margin-top: 5px;
+}
+
+.budget-show-1 button,
+.budget-show-2 button,
+.budget-show-3 button{
+    border: 0;
+    padding: 11px 22px;
+    background-color: #FF5049;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.budget-show-1 button:hover,
+.budget-show-2 button:hover,
+.budget-show-3 button:hover{
+    -webkit-box-shadow: 0px 1px 20px -1px rgba(0,0,0,0.64);
+    -moz-box-shadow: 0px 1px 20px -1px rgba(0,0,0,0.64);
+    box-shadow: 0px 1px 20px -1px rgba(0,0,0,0.64);
+}
+
+.budget-show-1 button a,
+.budget-show-2 button a,
+.budget-show-3 button a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
